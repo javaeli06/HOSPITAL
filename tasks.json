@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build hospitalclinicsystem",
+      "command": "g++",
+      "args": ["-std=c++17", "main.cpp", "-municode", "-mwindows", "-o", "hospitalclinicsystem.exe"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
